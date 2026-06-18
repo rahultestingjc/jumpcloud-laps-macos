@@ -1,0 +1,26 @@
+# ---- Secrets / credentials (never commit) ----
+*.key
+*.pem
+*.env
+.env
+.env.*
+secrets.*
+*apikey*
+*api_key*
+*credentials*
+*password*
+
+# ---- macOS noise ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Local tooling ----
+.claude/
